@@ -1,1 +1,104 @@
 /* Place CSS styles here */
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 15px 0 22px 0;
+    background: #f1f1f1;
+  }
+  
+  input[type=email]:focus, input[type=password]:focus {
+    background-color: #f5d5eb;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f5d5eb;
+    margin-bottom: 25px;
+  }
+  
+  button {
+    background-color: #04aa36;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f43636;
+  }
+
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+
+  .container {
+    padding: 16px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+  
+  .form {
+      border: black 1px;
+      padding-left: 100px;
+      padding-right: 100px; 
+      font-weight: bold;
+      font-family:Arial, Helvetica, sans-serif
+  }
+
+.project-1-wrap-1 img {
+    max-width: 100%
+ }
+    
+.project-1-wrap-2 img {
+    max-width: 100%
+ }
+
+ h1 {
+    font-size: 24px;
+ }
+
+ .form-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+ }
+
+ @media {min-width: 800px;}{
+    .h1 {
+        font-size: 32px;
+    }
+    .form-buttons (
+        flex-direction: row;
+    )
+
+
+ @media {min-width: 800px;}{
+    .Stingray-pics {
+        display: flex;
+        gap: 16px;
+        flex-direction: column;
+    }
+ }
+ .Stingray-pics {
+    padding-left: 100px;
+ }
