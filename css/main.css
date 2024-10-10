@@ -6,6 +6,14 @@ body {
 
 /* Hero Section CSS */
 
+header style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .project-1-wrap-1 img {
   max-width: 100%
 }
@@ -24,41 +32,76 @@ h1 {
   font-family:Arial, Helvetica, sans-serif 
 }
 
-
 @media {min-width: 800px;} {
   .h1 {
-      font-size: 32px;
+    font-size: 32px;
   }
-  .form-buttons{
-      flex-direction: row;
-    }
-  }
+}
 
 
 @media {min-width: 800px;}{
   .Stingray-pic-1 {
-      display: flex;
-      gap: 16px;
-      flex-direction: column;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
   }
 }
 
 .section-1 {
   margin-left: 100px;
+  margin-right: 55px;
+}
+
+/* navigation stuff*/
+.topnav {
+  background-color: #f5d5eb;
+  overflow: hidden;
+  float: left;
+  color: #542234ae;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.topnav a {
+  float: left;
+  color: #31141e;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #f5d5eba3;
+  color: black;
 }
 
 /* Sign in form CSS */
+.form-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+@media (min-width: 800px) {
+  .form-buttons{
+      flex-direction: row;
+  }
+}
+
 input[type=email] {
     width: 100%;
     padding: 15px;
-    margin: 15px 0px 22px;
+    margin: 15px 5px 22px;
     background: #f5d5ef;
   }
 
 input[type=password] {
   width: 100%;
   padding: 15px;
-  margin: 15px 0px 22px;
+  margin: 15px 5px 22px;
   background-color: #f5d5eb;
 }
   
@@ -70,31 +113,21 @@ hr {
 button {
   background-color: #01631e;
   color: white;
-  padding: 14px 20px;
+  padding: 14px 25px;
   width: 100%;
   opacity: 0.9;
 }
 
-.form-buttons {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-  
-button:hover {
-  opacity:1;
-}
-
 .cancelbtn {
-  padding: 14px 20px;
+  padding: 14px 25px;
   background-color: #b80000;
   float: left;
-  width: 50%;
+  width: 100%;
 }
 
 .signupbtn {
   float: left;
-  width: 50%;
+  width: 100%;
 }
 
 .container {
@@ -117,4 +150,14 @@ button:hover {
     font-family:Arial, Helvetica, sans-serif
 }
 
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
 
+@media (max-width: 999px) {
+  .main-nav {
+    display: none;
+  }
+}
