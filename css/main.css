@@ -14,14 +14,6 @@ header style {
   padding-right: 20px;
 }
 
-.project-1-wrap-1 img {
-  max-width: 100%
-}
-  
-.project-1-wrap-2 img {
-  max-width: 100%
-}
-
 h1 {
   margin-left: 100px;
   margin-right: 55px;
@@ -29,7 +21,15 @@ h1 {
   padding-bottom: 5px;
   border-bottom: 15px solid #f5d5eb;
   font-weight: bold;
-  font-family:Arial, Helvetica, sans-serif 
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.project-1-wrap-1 img {
+  max-width: 100%
+}
+  
+.project-1-wrap-2 img {
+  max-width: 100%
 }
 
 @media {min-width: 800px;} {
@@ -59,10 +59,12 @@ h1 {
   float: left;
   color: #542234ae;
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 10px;
   font-size: 16px;
   font-weight: bold;
   font-family:Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  margin-right: 55px;
 }
 
 .topnav a {
@@ -74,7 +76,7 @@ h1 {
 }
 
 .topnav a:hover {
-  background-color: #f5d5eba3;
+  background-color: #5448507d;
   color: black;
 }
 
