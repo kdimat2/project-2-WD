@@ -8,7 +8,6 @@ body {
 .logo {
   max-width: 80px;
   float: left;
-
 }
 
 header style {
@@ -69,6 +68,7 @@ h1 {
 }
 
 /* navigation stuff*/
+
 .topnav {
   background-color: #f5d5eb;
   overflow: hidden;
@@ -82,17 +82,13 @@ h1 {
   margin-right: 20px;
   justify-content: space-between;
 }
+
 .topnav a {
   float: left;
   color: #31141e;
   text-align: center;
   padding: 14px 16px;
   font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #5448507d;
-  color: black;
 }
 
 .mobile-main-nav {
@@ -109,7 +105,7 @@ h1 {
   padding: 8px;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   .mobile-nav-wrapper {
     display: none;
   }
@@ -182,10 +178,22 @@ button {
 }
 
 .form {
-    margin-left: 25px;
-    margin-right: 55px; 
-    padding-right: 55px;
-    font-weight: bold;
-    font-family:Arial, Helvetica, sans-serif
+  margin-left: 25px;
+  margin-right: 55px; 
+  padding-right: 55px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif
 }
 
+/*thank you page*/
+
+.thank-you-page {
+  background-color: #f5d5eb;
+  text-align: center;
+  padding: 12px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+}
