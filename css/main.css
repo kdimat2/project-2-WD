@@ -55,13 +55,13 @@ h1 {
 @media {min-width: 800px;}{
   .Stingray-pic-1 {
     display: flex;
-    gap: 16px;
+    gap: 16apx;
     flex-direction: column;
   }
 }
 
 .section-1 {
-  margin-left: 25px;
+  margin-left: 30px;
   margin-right: 55px;
   font-weight: normal;
   font-family:Arial, Helvetica, sans-serif;
@@ -80,7 +80,6 @@ h1 {
   font-family:Arial, Helvetica, sans-serif;
   margin-left: 20px;
   margin-right: 20px;
-  justify-content: space-between;
 }
 
 .topnav a {
@@ -113,10 +112,18 @@ h1 {
 
 /* Sign in form CSS */
 
+.form {
+  margin-left: 50px;
+  margin-right: 55px; 
+  padding-right: 55px;
+  font-weight: bold;
+  font-family:Arial, Helvetica, sans-serif
+}
+
 .form-buttons {
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
 }
 
 @media (min-width: 800px) {
@@ -141,9 +148,9 @@ input[type=password] {
   background-color: #f5d5eb;
 }
   
-hr {
-    border: 1px solid #f5d5eb;
-    margin-bottom: 28px;
+h2 {
+    margin-bottom: 20px;
+    border-bottom: 5px solid #f5d5eb;
  }
   
 button {
@@ -175,14 +182,6 @@ button {
   .signupbtn {
     width: 100%;
   }
-}
-
-.form {
-  margin-left: 25px;
-  margin-right: 55px; 
-  padding-right: 55px;
-  font-weight: bold;
-  font-family:Arial, Helvetica, sans-serif
 }
 
 /*thank you page*/
