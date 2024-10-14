@@ -5,6 +5,11 @@ body {
 }
 
 /* Hero Section CSS */
+.logo {
+  max-width: 80px;
+  float: left;
+
+}
 
 header style {
   display: flex;
@@ -15,21 +20,30 @@ header style {
 }
 
 h1 {
-  margin-left: 100px;
-  margin-right: 55px;
-  font-size: 35px;
-  padding-bottom: 5px;
-  border-bottom: 15px solid #f5d5eb;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 60px;
   font-weight: bold;
   font-family:Arial, Helvetica, sans-serif;
 }
 
-.project-1-wrap-1 img {
-  max-width: 100%
+.Stingray-pics {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
-  
-.project-1-wrap-2 img {
-  max-width: 100%
+
+@media (min-width: 800px) {
+    .Stingray-pics {
+        flex-direction: row
+    }
+}
+
+.Stingray-pics {
+  border: 5px solid #f5d5eb;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 @media {min-width: 800px;} {
@@ -48,25 +62,26 @@ h1 {
 }
 
 .section-1 {
-  margin-left: 100px;
+  margin-left: 25px;
   margin-right: 55px;
+  font-weight: normal;
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 /* navigation stuff*/
 .topnav {
   background-color: #f5d5eb;
   overflow: hidden;
-  float: rights;
   color: #542234ae;
   text-align: center;
   padding: 12px 10px;
   font-size: 16px;
   font-weight: bold;
   font-family:Arial, Helvetica, sans-serif;
-  margin-left: 100px;
-  margin-right: 55px;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
 }
-
 .topnav a {
   float: left;
   color: #31141e;
@@ -80,7 +95,28 @@ h1 {
   color: black;
 }
 
+.mobile-main-nav {
+  flex-direction: column;
+  align-items: center;
+  background-color: #31141e;
+  position: absolute;
+  top: 99px;
+  left: 0;
+  right: 0;
+}
+
+.mobile-main-nav a {
+  padding: 8px;
+}
+
+@media (min-width: 1000px) {
+  .mobile-nav-wrapper {
+    display: none;
+  }
+}
+
 /* Sign in form CSS */
+
 .form-buttons {
   display: flex;
   flex-direction: column;
@@ -95,15 +131,17 @@ h1 {
 
 input[type=email] {
     width: 100%;
-    padding: 15px;
-    margin: 15px 5px 22px;
+    margin-right: 55px;
+    margin-bottom: 15px;
+    padding: 20px;
     background: #f5d5ef;
   }
 
 input[type=password] {
   width: 100%;
-  padding: 15px;
-  margin: 15px 5px 22px;
+  margin-right: 55px;
+  margin-bottom: 15px;
+  padding: 20px;
   background-color: #f5d5eb;
 }
   
@@ -115,28 +153,26 @@ hr {
 button {
   background-color: #01631e;
   color: white;
-  padding: 14px 25px;
+  padding: 14px 20px;
   width: 100%;
   opacity: 0.9;
 }
 
 .cancelbtn {
-  padding: 14px 25px;
   background-color: #b80000;
-  float: left;
+  margin-right: 55px;
+  margin-bottom: 15px;
   width: 100%;
 }
 
 .signupbtn {
   float: left;
   width: 100%;
-}
-
-.container {
-  padding: 16px;
+  margin-right: 55px;
+  margin-bottom: 15px;
 }
   
-@media screen and (max-width: 300px) {
+@media (max-width: 300px) {
   .cancelbtn {
     width: 100%;
   }
@@ -146,20 +182,10 @@ button {
 }
 
 .form {
-    padding-left: 100px;
-    padding-right: 100px; 
+    margin-left: 25px;
+    margin-right: 55px; 
+    padding-right: 55px;
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif
 }
 
-.main-nav {
-  display: flex;
-  justify-content: space-between;
-  gap: 16px;
-}
-
-@media (max-width: 999px) {
-  .main-nav {
-    display: none;
-  }
-}
