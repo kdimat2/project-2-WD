@@ -31,6 +31,7 @@
 
 <header>
   <img class="logo" src="./img/11899278.png" alt="Stingbae favicon">
+  <div class="header">
   <h1>
     Stingbae
   </h1>
@@ -50,21 +51,24 @@
   </div>  
   <div class="Stingray-pics">
     <div class="Whitney">
-      <img src="./img/Whiptail_Stingray.gif" alt="Picture of a Whiptail Stingray, named Whitney">
-      <h3>Whitney, 24</h3>
-      <p>She just wants to dance with somebody. Maybe even feel the heat with somebody!</p>
+      <img src="./img/stingray 1.avif" alt="Picture of a Whiptail Stingray, named Whitney">
+      <h3>Whitney, 23</h3>
+      <p>She just wants to dance with somebody.</p>
+      <p>Maybe even feel the heat with somebody!</p>
       <a href="#my-form">See Whitney's Profile!</a>
     </div>
     <div class="Joe">
-      <img src="./img/Whiptail_Stingray.gif" alt="Picture of a Whiptail Stingray, named Percy">
+      <img src="./img/stingray 2.avif" alt="Picture of a stingray, named Percy">
       <h3>Joe, 24 </h3>
-      <p>That morning coffee, he brewed it for ya. Say you cant sleep, he knows. Its him, espresso.</p>
+      <p>That morning coffee, he brewed it for ya.</p>
+      <p>Say you cant sleep, he knows. Its him, espresso.</p>
       <a href="#my-form">See Percy's Profile!</a>
     </div>
     <div class="Miranda">
-      <img src="./img/Whiptail_Stingray.gif" alt="Picture of a Whiptail Stingray, named Miranda">
+      <img src="./img/stingray 4.avif" alt="Picture of a Mantaray, named Miranda">
       <h3>Miranda, 20 </h3>
-      <p>Likes long walks on the sandfloor, getting caught in a current and pina colodas.</p>
+      <p>She Likes pina colodas, long walks on the ocean floor,</p>
+      <p>and pina colodas!</p>
       <a href="#my-form">See Miranda's Profile!</a>
     </div>
   </div>
@@ -74,16 +78,22 @@
 <form action="thankyou.html">
   <div class="stuff-inside-form">
     <h2>Sign in to your account!</h2>
+    
+    <div class="email">
+      <label for="email"><b>Email</b></label>
+      <input id="email" type="email" placeholder="Enter Email" name="email" required>
+    </div>
 
-    <label for="email"><b>Email</b></label>
-    <input id="email" type="email" placeholder="Enter Email" name="email" required>
+    <div class="password">
+      <label for="psw"><b>Password</b></label>
+     <input id="psw" type="password" placeholder="Enter Password" name="psw" required>
+    </div>
 
-    <label for="psw"><b>Password</b></label>
-    <input id="psw" type="password" placeholder="Enter Password" name="psw" required>
-
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label> 
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label> 
+    </div>
 
     <div class="form-buttons">
       <button type="button" class="cancelbtn">Cancel</button>

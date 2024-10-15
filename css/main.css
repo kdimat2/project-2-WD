@@ -27,35 +27,45 @@ h1 {
 }
 
 .Stingray-pics {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-
-@media (min-width: 800px) {
-    .Stingray-pics {
-        flex-direction: row
-    }
-}
-
-.Stingray-pics {
-  border: 5px solid #f5d5eb;
+  display: flex;
+  flex-direction: column;
+  gap: 130px;
   border-radius: 20px;
+  border: 5px solid #f5d5eb;
   padding: 20px;
   margin-bottom: 20px;
 }
 
-@media {min-width: 800px;} {
-  .h1 {
-    font-size: 32px;
+.Whitney img {
+  width: 200px;
+}
+
+.Miranda img {
+  width: 200px;
+}
+
+.Joe img {
+  width: 200px;
+}
+
+@media (min-width: 800px) {
+    .Stingray-pics {
+      flex-direction: row
+    }
+}
+
+@media (min-width: 800px;){
+  .Stingray-pics {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
   }
 }
 
-
-@media {min-width: 800px;}{
-  .Stingray-pic-1 {
+@media (min-width: 700px;){
+  .topnav {
     display: flex;
-    gap: 16apx;
+    gap: 12px;
     flex-direction: column;
   }
 }
@@ -67,6 +77,13 @@ h1 {
   font-family:Arial, Helvetica, sans-serif;
 }
 
+a:link {
+  color: #8d3051;
+}
+
+a:visited {
+  color: #551d31;
+}
 /* navigation stuff*/
 
 .topnav {
@@ -79,7 +96,7 @@ h1 {
   font-weight: bold;
   font-family:Arial, Helvetica, sans-serif;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 55px;
 }
 
 .topnav a {
@@ -113,7 +130,7 @@ h1 {
 /* Sign in form CSS */
 
 .form {
-  margin-left: 50px;
+  margin-left: 40px;
   margin-right: 55px; 
   padding-right: 55px;
   font-weight: bold;
@@ -133,25 +150,25 @@ h1 {
 }
 
 input[type=email] {
-    width: 100%;
-    margin-right: 55px;
-    margin-bottom: 15px;
-    padding: 20px;
-    background: #f5d5ef;
-  }
+  width: 96%;
+  margin-bottom: 15px;
+  padding: 20px;
+  background: #f5d5ef;
+}
 
 input[type=password] {
-  width: 100%;
-  margin-right: 55px;
+  width: 96%;
   margin-bottom: 15px;
   padding: 20px;
   background-color: #f5d5eb;
 }
   
 h2 {
-    margin-bottom: 20px;
-    border-bottom: 5px solid #f5d5eb;
- }
+  margin-bottom: 20px;
+  border-bottom: 5px solid #f5d5eb;
+  margin-right: 10px;
+  margin-left: 40px;
+}
   
 button {
   background-color: #01631e;
@@ -163,18 +180,22 @@ button {
 
 .cancelbtn {
   background-color: #b80000;
-  margin-right: 55px;
+  margin-left: 40px;
   margin-bottom: 15px;
   width: 100%;
 }
 
 .signupbtn {
   float: left;
-  width: 100%;
-  margin-right: 55px;
+  width: 94%;
+  margin-left: 40px;
   margin-bottom: 15px;
 }
   
+.checkbox {
+  margin-left: 40px;
+}
+
 @media (max-width: 300px) {
   .cancelbtn {
     width: 100%;
@@ -182,6 +203,14 @@ button {
   .signupbtn {
     width: 100%;
   }
+}
+
+.email {
+  margin-left: 40px;
+}
+
+.password {
+  margin-left: 40px;
 }
 
 /*thank you page*/
